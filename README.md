@@ -48,7 +48,7 @@ Observe that the only difference between the shell scripts for the following dat
 To run multi-turn dialogue generation with iterative refinement on MultiDoc2Dial:
 
 ```sh
-bash scripts/run\_sdg\_md2d.sh 
+bash scripts/run_sdg_md2d.sh 
 ```
 
 ### AskHR
@@ -56,5 +56,5 @@ bash scripts/run\_sdg\_md2d.sh
 To run multi-turn dialogue generation with iterative refinement on AskHR:
 
 ```sh
-bash scripts/run\_sdg\_askhr.sh
+bash scripts/run_sdg_askhr.sh
 ```
