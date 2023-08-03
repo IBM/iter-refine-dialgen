@@ -1,0 +1,11 @@
+tqdm
+python-dotenv
+pandas
+transformers
+torch
+ibm-generative-ai==0.2.2
+accelerate
+bitsandbytes
+scipy
+sentencepiece
+rouge-score

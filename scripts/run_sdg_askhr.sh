@@ -1,0 +1,11 @@
+python -u run_algo/multi_turn_sdg_refine.py \
+	--model google/flan-t5-xxl \
+	--task 'sdg' \
+        --num_samples 5  \
+	--num_init_outputs 1 \
+	--num_conv_turns 5 \
+	--max_attempts 1 \
+	--dataset_path 'data/askhr/manually-cleaned-coga-internal_CONSOLE_train_all_comb_user.json' \
+	--init_icl_samples 'data/icl_samples/icl_init_gen.jsonl' \
+	--model_source 'ibm-generative-ai' \
+	--output_path '.output'

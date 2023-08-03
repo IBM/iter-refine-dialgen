@@ -1,0 +1,11 @@
+python -u run_algo/multi_turn_sdg_refine.py \
+	--model google/flan-t5-xxl \
+	--task 'response' \
+        --num_samples 100 \
+	--num_init_outputs 1 \
+	--batch_size 1 \
+	--max_attempts 2 \
+	--dataset_path 'data/md2d/subdocs_data/md2d_subdocs_val_pos_neg.json' \
+	--init_icl_samples 'data/icl_samples/icl_init_gen.jsonl' \
+	--model_source 'ibm-generative-ai' \
+	--output_path '.output'
