@@ -36,7 +36,7 @@ To run single-turn response generation with iterative refinement, use the follow
 bash scripts/run_response_gen.sh
 ```
 
-In ```sh scripts/run_response_gen.sh```, the dataset, model to be queried via BAM, the number of samples in the dataset to run, and the maximum number of refinement attempts can be modified.
+In ```scripts/run_response_gen.sh```, the dataset, model to be queried via BAM, the number of samples in the dataset to run, and the maximum number of refinement attempts can be modified.
 Soon to be added: 'hugging-face' as a model source in addition to 'ibm-generative-ai'. 
 
 # Multi-turn Synthetic Dialogue Generation
