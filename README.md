@@ -11,13 +11,13 @@ conda create -y -p ./{env-name} python=3.10
 conda activate {env-name}
 ```
 
-Next, install the requirements as provided in requirements.txt:
+Next, install the package requirements as provided in requirements.txt:
 
 ```sh
 pip install -r requirements.txt 
 ```
 
-Querying models via BAM requires an API key, which can be obtained at https://bam.res.ibm.com/. Save this key in a file titled .env as follows:
+Querying models via BAM requires an API key, which can be obtained at https://bam.res.ibm.com/. Save this key in a file titled ```.env``` as follows:
 
 ```sh
 GENAI_KEY={your-api-key}
